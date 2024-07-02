@@ -4,6 +4,6 @@ import EventosController from '../controllers/eventosController.js';
 const router = express.Router();
 
 router
-  .get('/eventos', EventosController.listarEventos);
+  .get('/eventos', EventosController.listarEvento);
 
 export default router;
