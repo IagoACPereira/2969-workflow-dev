@@ -2,7 +2,7 @@
 // import db from '../db/dbconfig.js';
 
 class Evento {
-  constructor({
+  constuctor({
     id,
     nome,
     descricao,
@@ -20,15 +20,15 @@ class Evento {
     this.updated_at = updated_at || new Date().toISOString();
   }
 
-  static async pegarEventos() {
+  static async pegaEventos() {
     return [{
       id: 1,
       nome: 'lançamento',
       descricao: 'descrição',
-      data: '2023-01-01',
+      data: '2024-01-01',
       autor_id: 1,
-      created_at: '2023-01-01 07:00:00',
-      updated_at: '2023-01-01 07:00:00',
+      created_at: '2024-01-01 07:00:00',
+      updated_at: '2024-01-01 07:00:00',
     }];
   }
 }
